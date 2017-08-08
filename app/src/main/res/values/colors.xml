@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c2185b</color>
+    <color name="colorPrimaryDark">#8c0032</color>
+    <color name="colorPrimaryLight">#fa5788</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="restaurantsBackground">#ffcdd2</color>
+    <color name="localAttractionsBackground">#f8bbd0</color>
+    <color name="marketsBackground">#e1bee7</color>
+    <color name="streetsBackground">#c5cae9</color>
+    <color name="attractionNameTextColor">#575860</color>
+    <color name="attractionLocationTextColor">#575a6e</color>
+</resources>

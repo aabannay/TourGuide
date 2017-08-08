@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="restaurants_drawer_title">Restaurants</string>
+    <string name="streets_drawer_title">Famous Streets</string>
+    <string name="attractions_drawer_title">Local Attractions</string>
+    <string name="markets_drawer_title">Local Markets</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+</resources>

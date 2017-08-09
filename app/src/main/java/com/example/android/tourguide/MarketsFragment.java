@@ -28,10 +28,6 @@ public class MarketsFragment extends Fragment {
         //add the attractions to the list
         attractionsList.add(new Attraction("Thursday Market", "Qatif Central",
                 R.drawable.khamees_souq, null ));
-        attractionsList.add(new Attraction("Waqif Market", "Qatif Central", R.drawable.waqif_market, null ));
-        attractionsList.add(new Attraction("Moving Markets", "Multiple Locations within Qatif", R.drawable.moving_markets, null ));
-        attractionsList.add(new Attraction("Animals (Birds) Market", "Qatif Central", R.drawable.birds_market, null ));
-        attractionsList.add(new Attraction("Fish Market", "Qatif Central", R.drawable.qatif_fish_market, null ));
         attractionsList.add(new Attraction("Vegetables Market", "Qatif Central", R.drawable.vigetables_market, null ));
         attractionsList.add(new Attraction("Mias Market", "Qatif Central", R.drawable.mias_market, null ));
         attractionsList.add(new Attraction("Qatif City Mall", "Shatee District - Taroot Island", R.drawable.qatif_city_mall, null ));

@@ -13,8 +13,6 @@ public class Attraction {
     private String location;
     private int imageResourceId;
     private Uri geoLocation;
-    //private Time openingTime;
-    //private Time closingTime;
 
     //constructor method
     public Attraction(String name, String location, int imageResourceId, Uri geoLocation ){

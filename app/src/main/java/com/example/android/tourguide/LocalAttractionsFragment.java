@@ -26,15 +26,14 @@ public class LocalAttractionsFragment extends Fragment {
         final ArrayList<Attraction> attractionsList = new ArrayList<>();
 
         //add the attractions to the list
-        attractionsList.add(new Attraction("Tarout Castle", "Tarout Island", 0, null ));
-        attractionsList.add(new Attraction("Qatif Castle Entertainment Complex", "Qatif Central", 0, null ));
-        attractionsList.add(new Attraction("Abu Lawzah Bath", "Toubi Area", 0, null ));
-        attractionsList.add(new Attraction("Mangrove Forest", "Covering the undamaged costal areas of Tarout Island", 0, null ));
-        attractionsList.add(new Attraction("Ramis Farms", "The only left costal farms in the area " +
-                "surrounding Awamiyah on the Eastern side ", 0, null ));
-        attractionsList.add(new Attraction("Majedyiah Cornish", "Oldest Cornish in Qatif - Majediah Area", 0, null ));
-        attractionsList.add(new Attraction("A'imah Bridge", "Newest Bridge linking majediah with Nasrah and Turkiyah", 0, null ));
+        attractionsList.add(new Attraction(getString(R.string.tarout_castle), getString(R.string.tarout_island) , 0, null ));
+        attractionsList.add(new Attraction(getString(R.string.qatif_castle), getString(R.string.central_qatif), 0, null ));
+        attractionsList.add(new Attraction(getString(R.string.abu_lawzah), getString(R.string.toubi), 0, null ));
+        attractionsList.add(new Attraction(getString(R.string.mangrove), getString(R.string.mangrove_location), 0, null ));
+        attractionsList.add(new Attraction(getString(R.string.ramis), getString(R.string.ramis_location), 0, null ));
+        attractionsList.add(new Attraction(getString(R.string.majediyah_cournish), getString(R.string.majediyah_cournish_location), 0, null ));
 
+        attractionsList.add(new Attraction(getString(R.string.aimah_bridge), getString(R.string.aimah_bridge_location), 0, null ));
 
         AttractionsAdapter theAttractionsAdapter = new AttractionsAdapter((Activity) getActivity(),
                 attractionsList, R.color.localAttractionsBackground);

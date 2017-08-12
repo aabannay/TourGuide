@@ -25,15 +25,15 @@ public class RestaurantsFragment extends Fragment {
         final ArrayList<Attraction> attractionsList = new ArrayList<>();
 
         //add the attractions to the list
-        attractionsList.add(new Attraction("Altanoor Restaurant", "Restaurants Road | Qudus Road", 0, null ));
-        attractionsList.add(new Attraction("HotStop Mexican Food", "Ohud Road", 0, null ));
-        attractionsList.add(new Attraction("Flame Burger", "Bahar District", 0, null ));
-        attractionsList.add(new Attraction("Alghumgham Restaurant", "Ohud Road - Lawjam Industrial", 0, null ));
-        attractionsList.add(new Attraction("Spicy Meal", "Qudaih | Central Qatif | Qudus Road | Nasirah | Turkiyah | Tarout", 0, null ));
-        attractionsList.add(new Attraction("Alnoor Grills", "Qudaih", 0, null ));
-        attractionsList.add(new Attraction("Ayub Traditional Kebabs", "Qudaih - Muqaism Area", 0, null ));
-        attractionsList.add(new Attraction("Shawerma King", "Qudaih | Imam Ali Round", 0, null ));
-        attractionsList.add(new Attraction("Mexican Foodies", "Mexican District", 0, null ));
+        attractionsList.add(new Attraction( getString(R.string.tanoor), getString(R.string.tanoor_location), 0, null ));
+        attractionsList.add(new Attraction( getString(R.string.hotstop), getString(R.string.qudos_street), 0, null ));
+        attractionsList.add(new Attraction( getString(R.string.flame), getString(R.string.bahar_location), 0, null ));
+        attractionsList.add(new Attraction( getString(R.string.ghumgham), getString(R.string.ohud), 0, null ));
+        attractionsList.add(new Attraction( getString(R.string.spicy_meal), getString(R.string.spicy_meal_location), 0, null ));
+        attractionsList.add(new Attraction( getString(R.string.alnoor), getString(R.string.qudaih), 0, null ));
+        attractionsList.add(new Attraction( getString(R.string.ayub), getString(R.string.ayob_location), 0, null ));
+        attractionsList.add(new Attraction( getString(R.string.shawerma_king), getString(R.string.shawerma_king_location), 0, null ));
+        attractionsList.add(new Attraction( getString(R.string.mexican), getString(R.string.mexican_location), 0, null ));
         AttractionsAdapter theAttractionsAdapter = new AttractionsAdapter(getActivity(),
                 attractionsList, R.color.restaurantsBackground);
 

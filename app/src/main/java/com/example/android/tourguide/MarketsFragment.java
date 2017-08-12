@@ -26,12 +26,16 @@ public class MarketsFragment extends Fragment {
         final ArrayList<Attraction> attractionsList = new ArrayList<>();
 
         //add the attractions to the list
-        attractionsList.add(new Attraction("Thursday Market", "Qatif Central",
+        attractionsList.add(new Attraction(getString(R.string.thursday_market_title), getString(R.string.central_qatif),
                 R.drawable.khamees_souq, null ));
-        attractionsList.add(new Attraction("Vegetables Market", "Qatif Central", R.drawable.vigetables_market, null ));
-        attractionsList.add(new Attraction("Mias Market", "Qatif Central", R.drawable.mias_market, null ));
-        attractionsList.add(new Attraction("Qatif City Mall", "Shatee District - Taroot Island", R.drawable.qatif_city_mall, null ));
-        attractionsList.add(new Attraction("Mazaya Hyper Market", "Qudus Road", R.drawable.mazaya_market, null ));
+        attractionsList.add(new Attraction( getString(R.string.vigetables_market_title), getString(R.string.central_qatif),
+                R.drawable.vigetables_market, null ));
+        attractionsList.add(new Attraction( getString(R.string.mias_title), getString(R.string.central_qatif),
+                R.drawable.mias_market, null ));
+        attractionsList.add(new Attraction( getString(R.string.qcc_title), getString(R.string.qcc_location),
+                R.drawable.qatif_city_mall, null ));
+        attractionsList.add(new Attraction( getString(R.string.mazaya_title), getString(R.string.qudos_street),
+                R.drawable.mazaya_market, null ));
 
 
         AttractionsAdapter theAttractionsAdapter = new AttractionsAdapter((Activity) getActivity(),

@@ -26,13 +26,12 @@ public class StreetsFragment extends Fragment {
         final ArrayList<Attraction> attractionsList = new ArrayList<>();
 
         //add the attractions to the list
-        attractionsList.add(new Attraction("Restaurants Street", "Qala'ah Area", 0, null ));
-        attractionsList.add(new Attraction("Ohud Road", "Links Qatif with main highway - Dhahran to Jubail", 0, null ));
-        attractionsList.add(new Attraction("Moheet Road", "Linking Western Qatif with the Eastern Qatif and Sehat", 0, null ));
-        attractionsList.add(new Attraction("Tarout Island Road", "Linking Qatif and the rest of the " +
-                "world to the most important Saudi Island in the Gulf", 0, null ));
-        attractionsList.add(new Attraction("Awamiyah-Safwa Road", "Linking Southern Qatif with Northern Qatif", 0, null ));
-        attractionsList.add(new Attraction("Costal Road ", "Road that links all costal attractions", 0, null ));
+        attractionsList.add(new Attraction(getString(R.string.restaurants_st), getString(R.string.restaurants_st_desc), 0, null ));
+        attractionsList.add(new Attraction(getString(R.string.ohud), getString(R.string.ohud_desc), 0, null ));
+        attractionsList.add(new Attraction(getString(R.string.moheet), getString(R.string.moheet_desc), 0, null ));
+        attractionsList.add(new Attraction(getString(R.string.tarout_st), getString(R.string.taroot_st_desc), 0, null ));
+        attractionsList.add(new Attraction(getString(R.string.awamiya_safwa_rd), getString(R.string.awamia_safwa_rd_desc), 0, null ));
+        attractionsList.add(new Attraction(getString(R.string.costal_rd), getString(R.string.costal_rd_desc), 0, null ));
 
         AttractionsAdapter theAttractionsAdapter = new AttractionsAdapter((Activity) getActivity(),
                 attractionsList, R.color.streetsBackground);
